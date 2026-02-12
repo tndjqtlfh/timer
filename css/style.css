@@ -1,0 +1,73 @@
+body{
+background:radial-gradient(#F0F4FF,#A5B6EE);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-hidden{
+    display: none;
+}
+.logo{
+    width: 244px;
+    height: 48px;
+    margin-top:72px ;
+}
+.timer-box{
+    background:linear-gradient(#5572BB,#374B7C) ;
+    margin-top: 60px;
+    padding: 40px 40px;
+    border-radius: 16px;
+    width: 400px;
+    height: 360px;
+    
+   
+    
+}
+hr{
+    background: #3D538A;
+   height: 1px;
+   border: 0;
+}
+h2{
+    color: white;
+    font-weight:700;
+    font-size: 24px;
+    
+}
+.time-number{
+    font-weight: 700;
+    font-size: 40px;
+    color:white;
+}
+.time-box{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(#304577,#4C65A0);
+    border: 1px #354971;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock-name{
+    font-weight: 700;
+    font-size: 12px;
+    color:#A5B6EE ;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 112px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #324577;
+    color:#617199;
+    font-weight: 700;
+    font-size: 14px;
+    border: 0;
+}
